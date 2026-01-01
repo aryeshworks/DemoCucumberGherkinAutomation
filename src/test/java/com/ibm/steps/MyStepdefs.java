@@ -52,4 +52,10 @@ public class MyStepdefs {
             Assert.assertTrue(false);
 //            Assertions.assertTrue(false);
     }
+
+    @When("user gives {string} and {string}")
+    public void userGivesAnd(String un, String pw) {
+        driver.findElement(By.name("username")).sendKeys(un);
+        driver.findElement(By.id("password")).sendKeys(pw);
+    }
 }
