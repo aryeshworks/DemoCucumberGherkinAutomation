@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content failed suite-Cucumber_Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;User login&quot;, &quot;Login functionality&quot;)">runScenario("User login", "Login functionality")</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;User login&quot;, &quot;Login functionality&quot;)">runScenario("User login", "Login functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to the product and manage cart lifecycle&quot;, &quot;Wallpaper Shopping and Cart Management&quot;)">runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Cucumber_Suite -->
@@ -122,12 +117,12 @@
                     <div class="method-list-content passed suite-Cucumber_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;User logs in with valid credentials&quot;, &quot;Login functionality&quot;)">runScenario("User logs in with valid credentials", "Login functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to the product and manage cart lifecycle&quot;, &quot;Wallpaper Shopping and Cart Management&quot;)">runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;User login&quot;, &quot;Login functionality&quot;)">runScenario("User login", "Login functionality")</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Cucumber_Suite" title="com.ibm.runner.RunUsingTestNg" class="method navigator-link" hash-for-method="runScenario(&quot;Navigate to the product and manage cart lifecycle&quot;, &quot;Wallpaper Shopping and Cart Management&quot;)">runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Cucumber_Suite -->
@@ -150,70 +145,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User login&quot;, &quot;Login functionality&quot;)">
-                  </a> <!-- runScenario("User login", "Login functionality") -->
+                  <a name="runScenario(&quot;Navigate to the product and manage cart lifecycle&quot;, &quot;Wallpaper Shopping and Cart Management&quot;)">
+                  </a> <!-- runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User login","Login functionality")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Log out
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+                  <span class="parameters">("Navigate to the product and manage cart lifecycle","Wallpaper Shopping and Cart Management")</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&quot;modal-content-26&quot;]/div/div[3]/div/div[2]/a[1] (tried for 15 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [be33928a-4570-49de-9de5-2ed7d8532d73, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24312, moz:profile: C:\Users\ARYESH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: be33928a-4570-49de-9de5-2ed7d8532d73
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at com.ibm.steps.MyStepdefs.user_lands_on_dashboard_page(MyStepdefs.java:49)
-	at ✽.user lands on dashboard page(file:///C:/Users/AryeshSaha/Documents/specialty%20training/DemoCucumberGherkinAutomation/src/test/resources/features/MyApp.feature:12)
-
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;User login&quot;, &quot;Login functionality&quot;)">
-                  </a> <!-- runScenario("User login", "Login functionality") -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("User login","Login functionality")</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: Log out
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
-Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.1&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [bc35828a-01d4-450c-a913-f4e4fe4edcf1, findElement {using=link text, value=Log out}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12412, moz:profile: C:\Users\ARYESH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: bc35828a-01d4-450c-a913-f4e4fe4edcf1
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
-	at com.ibm.steps.MyStepdefs.user_lands_on_dashboard_page(MyStepdefs.java:49)
-	at ✽.user lands on dashboard page(file:///C:/Users/AryeshSaha/Documents/specialty%20training/DemoCucumberGherkinAutomation/src/test/resources/features/MyApp.feature:12)
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 146.0.1, moz:accessibilityChecks: false, moz:buildID: 20251217121356, moz:firefoxOptions: {binary: C:\Users\AryeshSaha\.cache\..., prefs: {remote.active-protocols: 1}}, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25848, moz:profile: C:\Users\ARYESH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: Windows 11, proxy: Proxy(), se:bidiEnabled: false, se:cdpEnabled: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: faf9e2ca-a479-4442-b6c2-78a78055121e
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.ibm.steps.WallpaperShoppingStepsdefs.i_should_be_able_to_view_the_product_in_my_cart(WallpaperShoppingStepsdefs.java:69)
+	at ✽.I should be able to view the product in my cart(file:///C:/Users/AryeshSaha/Documents/specialty%20training/DemoCucumberGherkinAutomation/src/test/resources/features/WallpaperShopping.feature:14)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -230,20 +175,20 @@ Session ID: bc35828a-01d4-450c-a913-f4e4fe4edcf1
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User logs in with valid credentials&quot;, &quot;Login functionality&quot;)">
-                  </a> <!-- runScenario("User logs in with valid credentials", "Login functionality") -->
+                  <a name="runScenario(&quot;Navigate to the product and manage cart lifecycle&quot;, &quot;Wallpaper Shopping and Cart Management&quot;)">
+                  </a> <!-- runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User logs in with valid credentials","Login functionality")</span>
+                  <span class="parameters">("Navigate to the product and manage cart lifecycle","Wallpaper Shopping and Cart Management")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="runScenario(&quot;User login&quot;, &quot;Login functionality&quot;)">
-                  </a> <!-- runScenario("User login", "Login functionality") -->
+                  <a name="runScenario(&quot;Navigate to the product and manage cart lifecycle&quot;, &quot;Wallpaper Shopping and Cart Management&quot;)">
+                  </a> <!-- runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("User login","Login functionality")</span>
+                  <span class="parameters">("Navigate to the product and manage cart lifecycle","Wallpaper Shopping and Cart Management")</span>
                   <em>
 (Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
@@ -310,28 +255,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'com.ibm.runner.RunUsingTestNg')
-data.setCell(0, 3, 21646);
+data.setCell(0, 3, 159720);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'com.ibm.runner.RunUsingTestNg')
-data.setCell(1, 3, 21399);
+data.setCell(1, 3, 109527);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'com.ibm.runner.RunUsingTestNg')
-data.setCell(2, 3, 9116);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'runScenario')
-data.setCell(3, 2, 'com.ibm.runner.RunUsingTestNg')
-data.setCell(3, 3, 7651);
+data.setCell(2, 3, 71904);
 window.suiteTableData['Cucumber_Suite']= { tableData: data, tableDiv: 'times-div-Cucumber_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 59 seconds</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Cucumber_Suite">
               </div> <!-- times-div-Cucumber_Suite -->
             </div> <!-- times-div -->
@@ -359,32 +300,26 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.ibm.runner.RunUsingTestNg</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@5c448433)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@5ed5b321)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">runScenario("User logs in with valid credentials", "Login functionality")</span>
-                <span class="method-start">384 ms</span>
+                <span class="method-name">runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management")</span>
+                <span class="method-start">765 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">runScenario("User login", "Login functionality")</span>
-                <span class="method-start">8038 ms</span>
+                <span class="method-name">runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management")</span>
+                <span class="method-start">160489 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">runScenario("User login", "Login functionality")</span>
-                <span class="method-start">29440 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">runScenario("User login", "Login functionality")</span>
-                <span class="method-start">51088 ms</span>
+                <span class="method-name">runScenario("Navigate to the product and manage cart lifecycle", "Wallpaper Shopping and Cart Management")</span>
+                <span class="method-start">232400 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">60206 ms</span>
+                <span class="method-start">341931 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

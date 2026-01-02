@@ -1,3 +1,4 @@
+@LoginFeature
 Feature: Login functionality
   Scenario: User logs in with valid credentials
     Given user is on login page

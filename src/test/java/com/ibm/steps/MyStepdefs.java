@@ -1,31 +1,15 @@
 package com.ibm.steps;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+import com.ibm.hooks.Hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
-import java.time.Duration;
-
 public class MyStepdefs {
-    WebDriver driver;
-
-    @Before
-    public void setup() {
-        driver = new FirefoxDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-    }
-
-    @After
-    public void tearDown() {
-        driver.quit();
-    }
+    WebDriver driver = Hooks.driver;
 
     @Given("user is on login page")
     public void user_is_on_login_page() {
